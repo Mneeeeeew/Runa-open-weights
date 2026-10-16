@@ -213,6 +213,3 @@ Because the parameters and architecture are openly available, third parties can 
 ## License
 
 The Runa inference code and Runa model weights are released under the [Apache License 2.0](LICENSE). The tokenizer is based on the MIT-licensed OpenAI GPT tokenizer. Dataset and third-party attributions are listed in [NOTICE](NOTICE).
-#   R u n a - o p e n - w e i g h t s 
- 
- 
