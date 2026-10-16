@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+
+# Model binaries are uploaded to GitHub Releases, not committed to Git.
+*.safetensors
+*.gguf
+
+# Never publish source or resumable training checkpoints from this repository.
+*.pt
+*.pth
+*.ckpt
+optimizer*
+scheduler*
+scaler*

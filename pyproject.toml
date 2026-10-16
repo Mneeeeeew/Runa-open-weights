@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "runa-open-weights"
+version = "1.0.0"
+description = "Minimal inference package for the Runa-46M and Runa-116M causal language models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+  "torch>=2.1",
+  "safetensors>=0.4",
+  "tokenizers>=0.15",
+]
+
+[project.scripts]
+runa-generate = "runa.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

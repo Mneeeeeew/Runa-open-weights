@@ -1,0 +1,24 @@
+Runa Open Weights
+Copyright 2026 the Runa contributors
+
+The tokenizer files distributed with this project are based on the OpenAI GPT
+tokenizer made available through openai-community/openai-gpt. That tokenizer is
+distributed under the MIT License:
+
+https://huggingface.co/openai-community/openai-gpt
+https://github.com/openai/finetune-transformer-lm/blob/master/LICENSE
+
+The Runa models were trained on the sample-10BT configuration of FineWeb-Edu.
+FineWeb-Edu is made available under the Open Data Commons Attribution License
+(ODC-By) v1.0 and is also subject to the Common Crawl Terms of Use:
+
+https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
+https://opendatacommons.org/licenses/by/1-0/
+https://commoncrawl.org/terms-of-use
+
+FineWeb-Edu citation:
+
+Anton Lozhkov, Loubna Ben Allal, Leandro von Werra, and Thomas Wolf.
+"FineWeb-Edu: the Finest Collection of Educational Content."
+https://doi.org/10.57967/hf/2497
+

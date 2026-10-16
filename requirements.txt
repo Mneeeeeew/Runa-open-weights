@@ -1,0 +1,4 @@
+torch>=2.1
+safetensors>=0.4
+tokenizers>=0.15
+

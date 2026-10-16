@@ -1,0 +1,35 @@
+{
+  "format": "runa-open-weights-v1",
+  "release": "v1.0.0",
+  "contains_training_state": false,
+  "weights": [
+    {
+      "model": "Runa-46M",
+      "file": "runa-46m-f32.safetensors",
+      "bytes": 185700368,
+      "sha256": "b5b374b2fe98b0689ae89ae72a2dba8eea45e4948aeefcd4e2d876980d4bf5cc",
+      "dtype": "float32",
+      "parameter_count": 46423552,
+      "tensor_count": 58,
+      "tied_weight": "lm_head.weight=embedding.weight",
+      "source_checkpoint_sha256": "19143a45b8fe5de3a473b24bcd2efbffe3c5f1f4089b936f482397fe11a332a5",
+      "checkpoint_step": 48830,
+      "validation_loss": 3.9042159652709962,
+      "training_tokens": 400015360
+    },
+    {
+      "model": "Runa-116M",
+      "file": "runa-116m-f32.safetensors",
+      "bytes": 464172944,
+      "sha256": "ded3445601bd816084a3252596222445c3ec986096a354b209adc0476340722a",
+      "dtype": "float32",
+      "parameter_count": 116040960,
+      "tensor_count": 86,
+      "tied_weight": "lm_head.weight=embedding.weight",
+      "source_checkpoint_sha256": "e2f9ba85ecc2efe533a374f439177d3561845d184941fe9425c4931196e354b4",
+      "checkpoint_step": 61000,
+      "validation_loss": 3.2311879563331605,
+      "training_tokens": 1998848000
+    }
+  ]
+}

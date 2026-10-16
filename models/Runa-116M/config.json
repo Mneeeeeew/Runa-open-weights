@@ -1,0 +1,23 @@
+{
+  "model_type": "runa",
+  "architecture": "RunaLM",
+  "format_version": 1,
+  "vocab_size": 40478,
+  "max_seq_len": 512,
+  "n_layers": 12,
+  "d_model": 768,
+  "n_heads": 12,
+  "d_ff": 2048,
+  "dropout": 0.0,
+  "norm_eps": 1e-06,
+  "rope_theta": 10000.0,
+  "tie_embeddings": true,
+  "parameter_count": 116040960,
+  "weight_file": "runa-116m-f32.safetensors",
+  "weight_dtype": "float32",
+  "tokenizer_sha256": "84614ccfdd2c389117b5cdd130dd88b4c6106fb883a66bf1888a2b7f2914d2fa",
+  "training_tokens": 1998848000,
+  "checkpoint_step": 61000,
+  "validation_loss": 3.2311879563331605,
+  "source_checkpoint_sha256": "e2f9ba85ecc2efe533a374f439177d3561845d184941fe9425c4931196e354b4"
+}
